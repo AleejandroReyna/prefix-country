@@ -1,0 +1,18 @@
+Prefixer con React
+
+1. Creamos el componente Prefixer el cual con una variable sabrá el listado de
+  países con su respectivo prefixer.
+
+2. Creamos la función countryItem que nos retornará las opciones del país.
+
+3. Iteramos con ese objeto, para desplegar esas opciones con Object.keys() y map()
+
+4. Le asignamos un valor por defecto a nuestro select.
+
+5. Asignamos la variable que tomará el prefix del country elegido para desplegarlo.
+
+6. Creamos nuestro constructor y seteamos el estado country, el cual tomará un valor
+  por defecto.
+
+7. Creamos el método handleChange que cambiará el valor del estado de country por
+  el country elegido en el select.
